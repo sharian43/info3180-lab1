@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/app.css') }}" />
 <head>
  <meta charset="UTF-8">
  <title>My Website - About</title>
 </head>
-<body>
+<body> 
  <h1>Sharian Johnson</h1>
- <p>I'm an avid reader and a formula 1 and tennis lover. My current faves include The Miseducation of Lauryn Hill, Flower Boy. I enjoy watching old sitcoms, action movies that are not too gory and corny romance films. My Favorite app is Pinterest due to its peaceful and aesthetic nature. I would love to work in the network engineering, ML/AI or Data Analytics field.</p>
+ <p>I'm an avid reader and a formula 1 and tennis lover. My current faves include The Miseducation of Lauryn Hill, Flower Boy. I enjoy watching old sitcoms, action movies that are not too gory and corny romance films. My Favorite app is Pinterest due to its peaceful and aesthetic nature.  I have a deep appreciation for well-written storytelling, whether in books, films, or music, and I enjoy exploring different genres that challenge my perspective. I would love to work in network engineering, ML/AI, or data analytics, where I can apply my analytical skills and creativity to solve real-world challenges. Additionally, I am currently learning how to play Chess and the Piano.</p>
+<img src="{{url_for('static', filename='images/tennis.jpg')}}" alt="Tennis Rackets">
 </body>
 </html>
